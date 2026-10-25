@@ -1,12 +1,12 @@
 {
-  "version_code": 17,
-  "version_name": "1.0.16",
-  "release_tag": "v1.0.16",
-  "release_date": "2026-10-25T11:54:27Z",
-  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.16/Polestar4Companion_v1.0.16.apk",
-  "apk_size_bytes": 20209140,
-  "apk_sha256": "448826b30a9ffb9038b60e5cbf443be2107cab83e60dcdabcb840fb987cc717d",
+  "version_code": 18,
+  "version_name": "1.0.17",
+  "release_tag": "v1.0.17",
+  "release_date": "2026-10-25T12:23:34Z",
+  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.17/Polestar4Companion_v1.0.17.apk",
+  "apk_size_bytes": 20215380,
+  "apk_sha256": "d7d026217270ae171162d70b2f6b451fbd0696392428aed99c29d416ee4b4561",
   "min_supported_version_code": 1,
   "force_update": false,
-  "release_notes": "[v1.0.16] 환경설정 튕김(크래시) 원천 해결, 충전 경제성 독립 탭 신설(4탭 체제) 및 대시보드 순수화 릴리스\n• [환경설정 튕김 결함 원천 해결]: 불안정한 Material3 Switch 컴포넌트를 100% 안전한 네이티브 Pill 토글로 교체하고, 미지원 아이콘을 정품 이모지/클래스로 대체하여 환경설정 진입 시 비정상 종료(크래시) 완벽 박멸\n• [전역 비정상 종료 방어망 구축]: PolestarApplication에 UncaughtExceptionHandler를 장착하여 예기치 않은 런타임 오류 시 스택 트레이스를 보존하고 무차별 튕김 방지\n• [충전 경제성 독립 탭 신설]: 대시보드에서 충전 요금 카드를 분리하여 별도의 [충전 경제성] 탭(4탭 체제)으로 승격. 80%/90%/100% 충전 요금 계산기, 한전 계시별 요금표, 사계절 전비 팁을 한 화면에서 쾌적하게 열람\n• [마스터 콕핏 순수화]: 대시보드는 오직 차량 상태(배터리, ODO, 정비, BMS, 4륜 TPMS 권장 규격)만을 넓고 쾌적하게 보여주도록 재정렬"
+  "release_notes": "[v1.0.17] 환경설정 진입 크래시(비정상 종료) 원천 차단 방탄 패치 및 실시간 안전 진단 릴리스\n• [EncryptedAuthStorage Keystore 무중단 방탄 처리]: 앱 업데이트 후 Keystore 복호화 예외(AEADBadTagException / SecurityException) 발생 시 앱이 다운되던 근본 원인을 원천 제거. 손상된 암호화 스토리지 자동 리셋 및 무중단 프라이빗 폴백(Self-Healing Fallback)으로 크래시 확률 0% 달성\n• [Compose 레이아웃 중첩 스크롤 충돌 해소]: 세로 스크롤 부모 내부에 존재하던 터미널 박스의 중첩 verticalScroll을 전면 제거하고 접기/펼치기(기본 접힘) 아키텍처로 개편하여 렌더링 부하 및 Compose 측정 제약 충돌 영구 방어\n• [중복 인셋 및 불필요한 구독 정리]: Scaffold innerPadding과의 statusBarsPadding/navigationBarsPadding 중복을 정리하고, 화면 미사용 telemetry 구독을 제거하여 CPU/메모리 효율 극대화\n• [최근 비정상 종료(Crash) 자동 감지 및 리포트 복사]: 앱 비정상 종료 기록이 존재할 경우 환경설정 최상단에 감지 알림 및 [📋 로그 복사] 버튼을 제공하여 사후 추적성 완비"
 }
