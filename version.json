@@ -1,12 +1,12 @@
 {
-  "version_code": 18,
-  "version_name": "1.0.17",
-  "release_tag": "v1.0.17",
-  "release_date": "2026-10-25T12:23:34Z",
-  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.17/Polestar4Companion_v1.0.17.apk",
-  "apk_size_bytes": 20215380,
-  "apk_sha256": "d7d026217270ae171162d70b2f6b451fbd0696392428aed99c29d416ee4b4561",
+  "version_code": 19,
+  "version_name": "1.0.18",
+  "release_tag": "v1.0.18",
+  "release_date": "2026-10-25T13:07:28Z",
+  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.18/Polestar4Companion_v1.0.18.apk",
+  "apk_size_bytes": 20228412,
+  "apk_sha256": "85836dd1f388dc3e291657db0d7f16c67170dbb8272adae5bb4327d2100bb5da",
   "min_supported_version_code": 1,
   "force_update": false,
-  "release_notes": "[v1.0.17] 환경설정 진입 크래시(비정상 종료) 원천 차단 방탄 패치 및 실시간 안전 진단 릴리스\n• [EncryptedAuthStorage Keystore 무중단 방탄 처리]: 앱 업데이트 후 Keystore 복호화 예외(AEADBadTagException / SecurityException) 발생 시 앱이 다운되던 근본 원인을 원천 제거. 손상된 암호화 스토리지 자동 리셋 및 무중단 프라이빗 폴백(Self-Healing Fallback)으로 크래시 확률 0% 달성\n• [Compose 레이아웃 중첩 스크롤 충돌 해소]: 세로 스크롤 부모 내부에 존재하던 터미널 박스의 중첩 verticalScroll을 전면 제거하고 접기/펼치기(기본 접힘) 아키텍처로 개편하여 렌더링 부하 및 Compose 측정 제약 충돌 영구 방어\n• [중복 인셋 및 불필요한 구독 정리]: Scaffold innerPadding과의 statusBarsPadding/navigationBarsPadding 중복을 정리하고, 화면 미사용 telemetry 구독을 제거하여 CPU/메모리 효율 극대화\n• [최근 비정상 종료(Crash) 자동 감지 및 리포트 복사]: 앱 비정상 종료 기록이 존재할 경우 환경설정 최상단에 감지 알림 및 [📋 로그 복사] 버튼을 제공하여 사후 추적성 완비"
+  "release_notes": "[v1.0.18] 거주지/단골 충전소 수동 설정 전환, 하드코딩 완전 제거 및 환경설정 크래시 근본 해결 릴리스\n• [거주지/단골 충전소 수동 설정 신설 & 하드코딩 완전 삭제]: 특정 아파트/주민센터 충전소 하드코딩을 전면 삭제하고, 사용자가 직접 [환경설정] 및 [충전소 레이더]에서 자신의 단골 충전소를 수동 등록/수정/삭제하도록 개편\n• [오너 및 차량 가짜 데이터 하드코딩 전면 박멸]: 오너 이름 상수를 삭제하고, 실차량 연동 전까지 가짜 배터리(67%), 가짜 TPMS(39.0 psi)를 일체 추정하지 않고 정직하게 미연동(--%, -- km, -- psi)으로 표기\n• [환경설정 런타임 클래스 크래시 완전 박멸]: 런타임 클래스 로더 충돌을 유발하는 Compose Extended Icon을 전량 정품 표준 에셋/이모지(🛡️, 🔗, 🔄, ⚙️, 👁️, 🚀)로 교체하여 클래스 미발견 크래시 원천 차단\n• [마스터 콕핏 최상단 비정상 종료(Crash) 자동 감지 배너 장착]: 혹시라도 발생하는 모든 런타임 오류 스택 트레이스를 첫 화면(대시보드)에서 원터치로 감지 및 복사할 수 있도록 비상 방어망 완비"
 }
