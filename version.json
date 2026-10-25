@@ -1,4 +1,12 @@
 {
+  "versionCode": 20,
+  "versionName": "1.0.19",
+  "releaseNotes": "[v1.0.19] Home Assistant 전체 차량 엔티티 융합 및 대시보드 고밀도 콕핏 확장 릴리스\n• [Home Assistant API 11대 차량 엔티티 전방위 파싱 & 융합]: TPMS 공기압뿐만 아니라 배터리 SoC, 실시간 충전 출력(kW), 충전 전력량(kWh), 충전기 연결 여부, 4개 도어 잠금/창문 닫힘, 보닛/트렁크 개폐, 실내/실외 온도, 공조 가동 여부, 12V 보조배터리 전압, 주차 존(Home/외부) 자동 인식\n• [마스터 대시보드 고밀도 신규 인포테인먼트 카드 2종 신설]:\n  - 🔒 차량 보안 및 개폐 상태 카드: 4도어 잠금, 전/후 창문, 보닛(프렁크), 트렁크(테일게이트) 개폐 상태 실시간 배지 모니터링\n  - ❄️ 실내외 공조 및 충전/12V 상태 카드: 실내/실외 온도 및 공조 작동, 12V 보조배터리 전압, N100 HA 주차 구역, 실시간 충전 출력(kW) 통합 디스플레이\n• [갤럭시 Z 폴드 8 완벽 반응형 듀얼 레이아웃]: 펼친 대화면 2단 컬럼 및 접힌 커버 화면 1단 고밀도 스택 완벽 대응",
+  "downloadUrl": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.19/Polestar4Companion_v1.0.19.apk",
+  "apkSize": 20252592,
+  "sha256": "0821fc388c081e6ecc766e37842441fc4fd47db20a95a952c9b54970e8c497c6",
+  "isMandatory": false,
+  "isForceUpdate": false,
   "version_code": 20,
   "version_name": "1.0.19",
   "release_tag": "v1.0.19",
