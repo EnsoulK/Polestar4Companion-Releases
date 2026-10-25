@@ -1,12 +1,12 @@
 {
-  "version_code": 19,
-  "version_name": "1.0.18",
-  "release_tag": "v1.0.18",
-  "release_date": "2026-10-25T13:07:28Z",
-  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.18/Polestar4Companion_v1.0.18.apk",
-  "apk_size_bytes": 20228412,
-  "apk_sha256": "85836dd1f388dc3e291657db0d7f16c67170dbb8272adae5bb4327d2100bb5da",
+  "version_code": 20,
+  "version_name": "1.0.19",
+  "release_tag": "v1.0.19",
+  "release_date": "2026-10-25T13:42:49Z",
+  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.19/Polestar4Companion_v1.0.19.apk",
+  "apk_size_bytes": 20252592,
+  "apk_sha256": "0821fc388c081e6ecc766e37842441fc4fd47db20a95a952c9b54970e8c497c6",
   "min_supported_version_code": 1,
   "force_update": false,
-  "release_notes": "[v1.0.18] 거주지/단골 충전소 수동 설정 전환, 하드코딩 완전 제거 및 환경설정 크래시 근본 해결 릴리스\n• [거주지/단골 충전소 수동 설정 신설 & 하드코딩 완전 삭제]: 특정 아파트/주민센터 충전소 하드코딩을 전면 삭제하고, 사용자가 직접 [환경설정] 및 [충전소 레이더]에서 자신의 단골 충전소를 수동 등록/수정/삭제하도록 개편\n• [오너 및 차량 가짜 데이터 하드코딩 전면 박멸]: 오너 이름 상수를 삭제하고, 실차량 연동 전까지 가짜 배터리(67%), 가짜 TPMS(39.0 psi)를 일체 추정하지 않고 정직하게 미연동(--%, -- km, -- psi)으로 표기\n• [환경설정 런타임 클래스 크래시 완전 박멸]: 런타임 클래스 로더 충돌을 유발하는 Compose Extended Icon을 전량 정품 표준 에셋/이모지(🛡️, 🔗, 🔄, ⚙️, 👁️, 🚀)로 교체하여 클래스 미발견 크래시 원천 차단\n• [마스터 콕핏 최상단 비정상 종료(Crash) 자동 감지 배너 장착]: 혹시라도 발생하는 모든 런타임 오류 스택 트레이스를 첫 화면(대시보드)에서 원터치로 감지 및 복사할 수 있도록 비상 방어망 완비"
+  "release_notes": "[v1.0.19] Home Assistant 전체 차량 엔티티 융합 및 대시보드 고밀도 콕핏 확장 릴리스\n• [Home Assistant API 11대 차량 엔티티 전방위 파싱 & 융합]: TPMS 공기압뿐만 아니라 배터리 SoC, 실시간 충전 출력(kW), 충전 전력량(kWh), 충전기 연결 여부, 4개 도어 잠금/창문 닫힘, 보닛/트렁크 개폐, 실내/실외 온도, 공조 가동 여부, 12V 보조배터리 전압, 주차 존(Home/외부) 자동 인식\n• [마스터 대시보드 고밀도 신규 인포테인먼트 카드 2종 신설]:\n  - 🔒 차량 보안 및 개폐 상태 카드: 4도어 잠금, 전/후 창문, 보닛(프렁크), 트렁크(테일게이트) 개폐 상태 실시간 배지 모니터링\n  - ❄️ 실내외 공조 및 충전/12V 상태 카드: 실내/실외 온도 및 공조 작동, 12V 보조배터리 전압, N100 HA 주차 구역, 실시간 충전 출력(kW) 통합 디스플레이\n• [갤럭시 Z 폴드 8 완벽 반응형 듀얼 레이아웃]: 펼친 대화면 2단 컬럼 및 접힌 커버 화면 1단 고밀도 스택 완벽 대응"
 }
