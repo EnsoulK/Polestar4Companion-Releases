@@ -1,11 +1,12 @@
 {
-  "versionCode": 15,
-  "versionName": "1.0.14",
-  "releaseNotes": "[v1.0.14] 폴스타 ID 토큰 동시성 Mutex 락 탑재, 허위 충전 오판단 제거, 누락 실측 정보 5종 전면 반영 & 음성 AI 걷어내기 정제 릴리스\n• [잦은 로그인 요구 영구 해결 (Mutex 동시성 락)]: PolestarApiService에 코루틴 Mutex를 배치하여 300ms 간격 중복 요청 시 refresh_token 충돌 및 invalid_grant 강제 로그아웃을 원천 차단\n• [허위 충전 표출 제거]: 미충전 주차 시에도 반환되는 116분을 '충전 진행 중'으로 왜곡하지 않고 '완충 소요 예상 시간(116분)'으로 정직화\n• [누락된 유효 정보 5종 표출]: 차주 프로필(오너: 김윤한 님), 마스킹 차대번호(VIN), 가용 에너지(67.0 kWh / 완충필요 33.0 kWh), 정밀 수신 시각(초단위) 대시보드 추가\n• [홈 화면 위젯 3종(4x2, 4x3, 2x1) 실측 연동]: 레거시 가짜 도어/창문/12V 더미 코드를 전량 걷어내고 ODO(12,514km), 정비(D-463) 100% 실측 데이터로 일원화\n• [저효용 음성 AI 및 마이크 권한 전면 삭제]: 마이크 권한(RECORD_AUDIO) 및 TTS 엔진을 걷어내고 3탭(콕핏, 충전소, 설정) 심플 네비게이션으로 개편\n• [갤럭시 Z 폴드 8 내/외장 가로세로 적응형 듀얼패인 콕핏]: 외장 커버(1컬럼 올인원) & 내장 대화면(2컬럼 듀얼패인) 스크롤 제로 뷰포트 완성",
-  "downloadUrl": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.14/Polestar4Companion_v1.0.14.apk",
-  "isMandatory": false,
-  "isForceUpdate": false,
-  "apkSize": 19684389,
-  "sha256": "964400b21e47b1c28937216a3ba97845215fe7aac72c69e204bf4a9a74ddd0ac",
-  "publishedAt": "2026-10-25T09:18:53Z"
+  "version_code": 16,
+  "version_name": "1.0.15",
+  "release_tag": "v1.0.15",
+  "release_date": "2026-10-25T09:43:25Z",
+  "apk_url": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.15/Polestar4Companion_v1.0.15.apk",
+  "apk_size_bytes": 19719073,
+  "apk_sha256": "28a1ada6e58a8d518ab2b35b9355bf088e89f4ed6db0114d399310b7676a55d1",
+  "min_supported_version_code": 1,
+  "force_update": false,
+  "release_notes": "[v1.0.15] 비충전 시 허위 완충예상시간 완전 은닉, 실시간 EV 충전 요금(원화) & 경제성 분석기 탑재, 4륜 TPMS 실전 권장 규격 가이드 개편\n• [비충전 시 허위 완충예상시간 제거]: 미충전 주차 시 폴스타 서버가 반환하는 이론치(116분)를 완전 무시하고 '🅿️ 주차 상태 (외부 전원 미연결)' 및 '12V & HV 셀 안전 감시'로 고정\n• [실시간 스마트 충전 경제성 & 요금 계산기 탑재]: 폴스타 공식 앱에는 없는 단지 완속(214원/kWh) vs 공공 급속(347.2원/kWh) 실시간 원화 요금 계산기 탑재. 80%(데일리 배터리 보호), 90%, 100% 목표치 원터치 선택 및 필요 충전량(kWh), 소요 시간, 완속 충전 시 절약 금액(원) 산출\n• [4륜 TPMS 실전 공기압 관리 허브 개편]: 클라우드 API 미지원 항목에 대해 무의미한 '동기화 대기' 대신 Polestar 4 Performance 22인치 휠 공식 스펙(전륜 42.0 PSI / 후륜 44.0 PSI) 규격 및 상태 기준치 실시간 표시\n• [갤럭시 Z 폴드 8 내/외장 듀얼패인 콕핏 완벽 조화]: 외장 커버(1컬럼 올인원) 및 내장 대화면(2컬럼 듀얼패인)에서 배터리 콕핏 바로 옆에 스마트 요금 계산기가 한눈에 들어오는 프리미엄 UX 완성"
 }
