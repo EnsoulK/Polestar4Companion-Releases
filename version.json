@@ -1,0 +1,11 @@
+{
+  "versionCode": 13,
+  "versionName": "1.0.12",
+  "releaseNotes": "[v1.0.12] 폴스타 실차량 텔레메트리 파싱 수정 및 GitHub 공식 릴리스 기반 영구 OTA 자동 업데이트 구축\n• [실차량 텔레메트리 파싱 복구]: 폴스타 GraphQL v2 배열(JSON Array) 응답 파싱 지원으로 배터리 SoC, 실시간 충전 잔여 시간, 주행가능거리, 총 누적거리(ODO), 정비 주기 대시보드 즉시 표출\n• [GitHub Releases 공식 OTA 허브 개설]: EnsoulK/Polestar4Companion-Releases 저장소 기반 인앱 자동 업데이트 및 캐시 무효화 version.json 매니페스트 배포 체계 가동\n• [모바일 UI/UX 최적화]: Pull-to-Refresh(아래로 당겨서 새로고침), 상대 경과 시간 및 회전 동기화 애니메이션 완비",
+  "downloadUrl": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.12/Polestar4Companion_v1.0.12.apk",
+  "isMandatory": false,
+  "isForceUpdate": false,
+  "apkSize": 19712932,
+  "sha256": "7d68ae49300d2bfa8639bd08aa4f347c9ade35c59cad800b4d8f243a16c0198a",
+  "publishedAt": "2026-10-25T08:44:04Z"
+}
