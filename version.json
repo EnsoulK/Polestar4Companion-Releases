@@ -1,11 +1,11 @@
 {
-  "versionCode": 14,
-  "versionName": "1.0.13",
-  "releaseNotes": "[v1.0.13] 갤럭시 Z 폴드 8 내/외장 가로세로 적응형 원스크린(One-Viewport) 듀얼패인 콕핏 대시보드 개편\n• [Galaxy Z Fold 8 대화면 듀얼패인 2컬럼 레이아웃]: 폴드 8 내장 대화면(Unfolded) 및 와이드 가로 모드 감지 시, 좌측(배터리/충전 콕핏 + TPMS 바)과 우측(2x2 고밀도 ODO/주행거리/정비/BMS 실측 메트릭스)으로 자동 분할 배치하여 스크롤 없이 한눈에 조망\n• [외장 커버 화면 컴팩트 원스크린]: 폴드 8 닫힌 상태(외장 커버)에서도 세로 스크롤 없이 첫 화면에 100% 모든 실제 데이터(SoC, Range, ODO, Service D-Day, Charging) 조망 가능\n• [영구 OTA 자동 업데이트 및 진단 로그 동기화]: v1.0.13 공식 GitHub Releases 등록 및 version.json 매니페스트 배포",
-  "downloadUrl": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.13/Polestar4Companion_v1.0.13.apk",
+  "versionCode": 15,
+  "versionName": "1.0.14",
+  "releaseNotes": "[v1.0.14] 폴스타 ID 토큰 동시성 Mutex 락 탑재, 허위 충전 오판단 제거, 누락 실측 정보 5종 전면 반영 & 음성 AI 걷어내기 정제 릴리스\n• [잦은 로그인 요구 영구 해결 (Mutex 동시성 락)]: PolestarApiService에 코루틴 Mutex를 배치하여 300ms 간격 중복 요청 시 refresh_token 충돌 및 invalid_grant 강제 로그아웃을 원천 차단\n• [허위 충전 표출 제거]: 미충전 주차 시에도 반환되는 116분을 '충전 진행 중'으로 왜곡하지 않고 '완충 소요 예상 시간(116분)'으로 정직화\n• [누락된 유효 정보 5종 표출]: 차주 프로필(오너: 김윤한 님), 마스킹 차대번호(VIN), 가용 에너지(67.0 kWh / 완충필요 33.0 kWh), 정밀 수신 시각(초단위) 대시보드 추가\n• [홈 화면 위젯 3종(4x2, 4x3, 2x1) 실측 연동]: 레거시 가짜 도어/창문/12V 더미 코드를 전량 걷어내고 ODO(12,514km), 정비(D-463) 100% 실측 데이터로 일원화\n• [저효용 음성 AI 및 마이크 권한 전면 삭제]: 마이크 권한(RECORD_AUDIO) 및 TTS 엔진을 걷어내고 3탭(콕핏, 충전소, 설정) 심플 네비게이션으로 개편\n• [갤럭시 Z 폴드 8 내/외장 가로세로 적응형 듀얼패인 콕핏]: 외장 커버(1컬럼 올인원) & 내장 대화면(2컬럼 듀얼패인) 스크롤 제로 뷰포트 완성",
+  "downloadUrl": "https://github.com/EnsoulK/Polestar4Companion-Releases/releases/download/v1.0.14/Polestar4Companion_v1.0.14.apk",
   "isMandatory": false,
   "isForceUpdate": false,
-  "apkSize": 19725604,
-  "sha256": "865556d4d2cf782a018b44cc730431c7b3ac12efd6d49b76de61e698926e89a0",
-  "publishedAt": "2026-10-25T08:55:29Z"
+  "apkSize": 19684389,
+  "sha256": "964400b21e47b1c28937216a3ba97845215fe7aac72c69e204bf4a9a74ddd0ac",
+  "publishedAt": "2026-10-25T09:18:53Z"
 }
